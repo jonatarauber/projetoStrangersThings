@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="./src/imagens/icon-netflix-menor.jpg">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/stilo.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <title>Stranges Things-Série</title>
+</head>
+<body>
+    <div class="imagem-fundo">
+        <img class="imagem-desktop" src="./src/imagens/imagen_fundo.jpg" alt="imagem com todos os personagem de stranges things">
+    </div>
+    <header class="cabecalho">
+        <img class="logo-netflix" src="./src/imagens/logotipo-da-netflix.jpg" alt="logo netflix">
+        <nav>
+            <ul class="menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./descricao.html">Descrição</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img class="titulo" src="./src/imagens/Stranger-Things-Logo.png" alt="titulo stranger things">
+    <div class="botao">
+        <button onclick="abrirModal()" class="btn">Trailer 1° temporada</button>
+    </div>
+
+    <div class="janela-modal" id="janela-modal" >
+        <div class="modal">
+            <button class="fechar">X</button>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1bNfirrsbsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+    </main>
+    <script src="funcoes.js"></script>
+</body>
